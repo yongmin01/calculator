@@ -13,7 +13,7 @@ public class CalculatorController{
 
     @RequestMapping("/")
     public String index(){
-        return "Hello World!";
+        return "Hello World! Chaned!";
     }
     @RequestMapping("/sum")
     public String sum(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
